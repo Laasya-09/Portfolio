@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import About from './components/About';
-//import ContactForm from './components/ContactForm';
+import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Skills from './components/Skills';
@@ -155,7 +155,7 @@ const Projects = () => (
       <About />
      <Skills/>
       <Projects />
-      {/* <ContactForm/> */}
+      <ContactForm/>
       <Footer />
     </div>
   );
